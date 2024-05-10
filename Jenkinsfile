@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Cloning Git Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Ramesh01012022/jk-public-gh.git'
+                git branch: 'main', url: 'https://github.com/yazber-utpl/pruebas-jenkis.git'
             }
         }
         
